@@ -2,6 +2,7 @@
   "name": "react-boilerplate",
   "version": "0.3.0",
   "description": "Quick packager-agnostic boilerplate for React modules using JSX",
+  "repository": "https://github.com/janx/react-boilerplate",
   "main": "lib/index.js",
   "dependencies": {
     "react": "~0.13",

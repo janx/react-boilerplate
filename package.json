@@ -1,15 +1,16 @@
 {
   "name": "react-boilerplate",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Quick packager-agnostic boilerplate for React modules using JSX",
   "main": "lib/index.js",
   "dependencies": {
-    "react": "~0.8",
+    "react": "~0.13",
     "statics-stylesheets": "~0.0.1",
-    "stylesheets": "~0.0.3"
+    "envify": "~0.2.0",
+    "stylesheets": "~0.0.5"
   },
   "devDependencies": {
-    "jsxc": "~0.1.6"
+    "jsxc": "~0.10"
   },
   "scripts": {
     "start": "jsxc --watch src/ lib/",
@@ -18,6 +19,6 @@
   "files": ["lib/", "USAGE.txt", "static/"],
   "staticRoot": "./static/",
   "staticPlugin": "statics-stylesheets",
-  "author": "Pete Hunt",
-  "license": "Apache 2"
+  "author": ["Pete Hunt", "Jan"],
+  "license": "MIT"
 }
